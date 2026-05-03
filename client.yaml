@@ -1,0 +1,63 @@
+# Configuration Client — DeptFlow-Agent
+# Dupliquer ce fichier pour chaque nouveau client
+# Remplir toutes les valeurs avant de lancer l'agent
+
+# === AUTHENTIFICATION ===
+bereach_api_key: "VOTRE_CLE_API_BEREACH"
+
+# === PROFIL CLIENT IDÉAL (ICP) ===
+icp:
+  secteur:
+    - "SaaS B2B"
+    - "Logiciels d'entreprise"
+  taille_entreprise:
+    - "11-50 employés"
+    - "51-200 employés"
+  titres_cibles:
+    - "CEO"
+    - "CTO"
+    - "Directeur Commercial"
+    - "Head of Sales"
+    - "VP Sales"
+  géographie:
+    - "France"
+    - "Belgique"
+    - "Suisse"
+  mots_clés:
+    - "croissance"
+    - "recrutement commercial"
+    - "scale"
+    - "prospection"
+  exclure:
+    - "freelance"
+    - "étudiant"
+    - "retraité"
+
+# === OFFRE COMMERCIALE ===
+offer:
+  problème: "Votre équipe commerciale perd du temps sur la prospection manuelle"
+  valeur: "Nous automatisons votre prospection LinkedIn pour générer 3x plus de RDV qualifiés"
+  cta: "Seriez-vous ouvert à un échange de 20 minutes pour voir si ça peut s'appliquer à votre contexte ?"
+  différenciateur: "Résultats mesurables en 30 jours ou remboursé"
+
+# === LIMITES QUOTIDIENNES ===
+daily_limits:
+  connexions: 25
+  dms: 20
+  visites_profil: 50
+  délai_min_entre_actions: 120  # secondes
+  délai_max_entre_actions: 300  # secondes
+
+# === MESSAGERIE (TELEGRAM) ===
+messaging:
+  telegram_bot_token: "VOTRE_TOKEN_BOT_TELEGRAM"
+  telegram_chat_id: "VOTRE_CHAT_ID_TELEGRAM"
+  alertes:
+    - réponse_positive
+    - erreur_critique
+    - rapport_quotidien
+
+# === PARAMÈTRES GÉNÉRAUX ===
+language: fr
+fuseau_horaire: Europe/Paris
+mode: production  # production | test
