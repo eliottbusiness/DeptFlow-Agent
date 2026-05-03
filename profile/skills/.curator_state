@@ -1,0 +1,8 @@
+{
+  "last_report_path": "/home/eliott_dardeau_pro/.hermes/logs/curator/20260501-092001",
+  "last_run_at": "2026-05-01T09:20:01.781596+00:00",
+  "last_run_duration_seconds": 0.101677,
+  "last_run_summary": "auto: no changes; llm: skipped (no candidates)",
+  "paused": false,
+  "run_count": 1
+}

@@ -1,0 +1,31 @@
+# Sensitive files
+.env
+.env.*
+auth.json
+*.db
+*.db-*
+channel_directory.json
+discord_threads.json
+gateway.pid
+gateway.lock
+gateway_state.json
+processes.json
+state.db*
+
+# Temporary files
+*.log
+*.lock
+*.tmp
+*.swp
+
+# Cache
+cache/
+sessions/
+pastes/
+audio_cache/
+image_cache/
+checkpoints/
+sandboxes/
+
+# Node/npm
+node_modules/

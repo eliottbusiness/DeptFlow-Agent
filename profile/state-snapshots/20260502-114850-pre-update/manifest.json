@@ -1,0 +1,16 @@
+{
+  "id": "20260502-114850-pre-update",
+  "timestamp": "20260502-114850",
+  "label": "pre-update",
+  "file_count": 7,
+  "total_size": 25856016,
+  "files": {
+    "state.db": 25812992,
+    "config.yaml": 11530,
+    ".env": 21644,
+    "auth.json": 9124,
+    "gateway_state.json": 274,
+    "channel_directory.json": 450,
+    "processes.json": 2
+  }
+}
